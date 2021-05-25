@@ -1,32 +1,39 @@
 <header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">My CV</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/users">Info</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/educations">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/languages">Languages</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/tools">Tools</a>
-        </li>
-      </ul>
+
+  <nav id "navbar" class="navbar navbar-expand-lg navbar-dark bg-dark nav-nav sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My CV</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/users">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/educations">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/languages">Languages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tools">Tools</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
 </header>
+
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-4">

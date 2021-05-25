@@ -2,6 +2,9 @@
 
 <div class="main">
 
+<h1> Tools </h1>
+<hr>
+
     <?php foreach($vars['tools'] as $tool) : ?>
         <div> <?= $tool->tool_name?> </div> 
     <?php endforeach ?>

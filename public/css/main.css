@@ -2,8 +2,12 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(142, 142, 167);
-    background-color: #353e47;
+    background-color: #353b47;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
 
 footer {
     background-color: #212529;
@@ -13,9 +17,35 @@ footer {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 15px;
-    text-align: left;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+hr {
+    margin-bottom: 25px;
 }
 
 .main {
     margin: 50px;
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.container {
+    background-color: #3b4150;
+    margin-top: 50px;
+}
+
+.portrait {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
 }

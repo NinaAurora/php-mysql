@@ -1,6 +1,7 @@
 <?php require 'views/partials/header.view.php' ?>
 
 <div class="main">
+    Welcome!
     <label>Have an</label> <?= $vars['nog_een_array'][0] ?>
 </div>
 
