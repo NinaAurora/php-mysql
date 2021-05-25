@@ -10,9 +10,9 @@ class LanguageController extends Controller
 {
     public function index()
         {
-            // $sql = "SELECT * FROM languages WHERE user_id=1";
+            $sql = "SELECT * FROM languages WHERE user_id=1";
 
-            // $result = MySql::query($sql);
+            $result = MySql::query($sql);
             // dd($result);
             $languageModel = new LanguageModel();
        
