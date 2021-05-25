@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(142, 142, 167);
+    background-color: #353e47;
+}
+
+footer {
+    background-color: #212529;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.main {
+    margin: 50px;
+}
