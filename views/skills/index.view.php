@@ -2,13 +2,17 @@
 
 <div class="main">
 
-<h1> Skills </h1>
-<hr>
+    <h1> Skills </h1>
+    <hr>
 
     <?php foreach($vars['skills'] as $skill) : ?>
-        <div> <?= $skill->skill_name, ": ",  $skill->skill_rating?> </div> 
+        <div> <?= $skill["skill_name"] ?> </div> 
+        <div> <?= $skill["rating"] ?> </div> 
     <?php endforeach ?>
 
 </div>
+
+
+
 
 <?php require 'views/partials/footer.view.php' ?>
