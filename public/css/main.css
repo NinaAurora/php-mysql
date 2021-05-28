@@ -11,7 +11,6 @@ body {
 
 footer {
     background-color: #212529;
-    position: fixed;
     bottom: 0;
     width: 100%;
     padding-top: 25px;
@@ -41,7 +40,7 @@ hr {
 
 .container {
     background-color: #3b4150;
-    margin-top: 50px;
+
 }
 
 .portrait {
